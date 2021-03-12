@@ -2,13 +2,20 @@
     display: flex;
 }
 
+body{
+    background-color: black;
+}
+
+h3{
+    color: white;
+}
 
 .grid{
     width: 200px;
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background: yellow;
+    background: #696969;
 }
 
 .grid div {
@@ -27,7 +34,7 @@
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #696969;
 }
 
 .mini-grid div {
